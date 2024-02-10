@@ -2,7 +2,7 @@ version: "3"
 
 services:
   helloapp:
-    build: .
+    build: /helloapp
     command: ruby helloapp.rb
     ports:
       - 4567:4567

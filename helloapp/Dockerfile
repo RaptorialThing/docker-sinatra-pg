@@ -1,6 +1,8 @@
 FROM ruby:slim
 
-RUN bash -c "apt-get update"
+RUN bash -c "apt-get update \
+apt-get install build-essential patch
+"
 
 COPY helloapp.rb /helloapp/
 COPY Gemfile /helloapp/

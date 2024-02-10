@@ -14,6 +14,6 @@ RUN bash -c "bundle install"
 
 EXPOSE 8000
 
-ENTRYPOINT ["ruby","helloapp.rb"]
+ENTRYPOINT ["rackup","helloapp.rb"]
 
 CMD ["-o","0.0.0.0","-p","8000"]

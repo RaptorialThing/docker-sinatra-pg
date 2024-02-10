@@ -1,3 +1,3 @@
-require "/helloapp"
+require "./helloapp"
 
 run Helloapp

@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  helloapp:
+    build: .
+    command: ruby helloapp.rb
+    ports:
+      - 4567:4567

@@ -1,7 +1,6 @@
 FROM ruby:slim
 
-RUN bash -c "apt-get update \
-  && apt-get install -y --no-install-recommends build-essential curl git libpq-dev"
+RUN bash -c "apt-get update"
 
 COPY helloapp.rb /helloapp/
 

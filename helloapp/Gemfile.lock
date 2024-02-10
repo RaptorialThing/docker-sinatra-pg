@@ -4,9 +4,6 @@ GEM
     base64 (0.2.0)
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
-    nio4r (2.7.0)
-    puma (6.3.1)
-      nio4r (~> 2.0)
     rack (2.2.8)
     rack-protection (3.2.0)
       base64 (>= 0.1.0)
@@ -23,7 +20,6 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  puma (~> 6.3.1)
   sinatra (~> 3.2.0)
 
 RUBY VERSION

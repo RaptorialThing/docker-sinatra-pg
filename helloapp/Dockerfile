@@ -12,4 +12,8 @@ WORKDIR /helloapp/
 
 RUN bash -c "bundle install"
 
-EXPOSE 4567
+EXPOSE 8000
+
+ENTRYPOINT ["ruby","helloapp.rb"]
+
+CMD ["-o","0.0.0.0","-p","8000"]

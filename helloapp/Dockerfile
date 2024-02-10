@@ -3,6 +3,7 @@ FROM ruby:slim
 RUN bash -c "apt-get update"
 
 COPY helloapp.rb /helloapp/
+COPY Gemfile /helloapp/
 
 RUN bash -c "gem install bundler"
 
